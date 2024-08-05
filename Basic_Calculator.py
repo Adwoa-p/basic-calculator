@@ -19,4 +19,8 @@ while True:
             break
     except ValueError as error:
         print(error)
+    except ZeroDivisionError as error:
+        print(error)
+    except:
+        print("An error Occured!!!")
     
